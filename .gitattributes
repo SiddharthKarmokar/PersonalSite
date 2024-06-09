@@ -1,0 +1,5 @@
+# Ensure text files have consistent line endings
+* text=auto
+
+#Specific file types
+*.json text eol=lf
