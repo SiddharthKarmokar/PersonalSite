@@ -1,12 +1,18 @@
-body{
+html, body{
+    height: 100%;
     background-color:#EEEEEE;
 }
 header{
     background-color: #393E46;
 }
-html{
-    background-color:#EEEEEE;
-}
 #bd-theme{
     background-color: #00ADB5;
+}
+[data-bs-theme=dark] .hero , header{
+    color: white;
+    background-color: #393E46;
+}
+[data-bs-theme=dark] body{
+    color: white;
+    background-color: #393E46;
 }

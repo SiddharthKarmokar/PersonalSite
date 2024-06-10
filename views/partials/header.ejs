@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -30,13 +30,10 @@
                 <button type="button" class="btn btn-outline-primary me-2">Login as User</button>
             </div>
             <div>
-                <form action="/theme" method="POST">
-                    <input type="button" value="Theme">
-                        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)">
-                            <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><img src="images/moon-stars-fill.svg" alt="theme icon"/></svg>
-                            <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-                        </button>
-                </form>
+                <button name="themeType" class="btn btn-bd-primary  py-2 d-flex justify-content-center align-items-center theme-btn" id="bd-theme" type="button" aria-label="Toggle theme (dark)">
+                    <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><img src="images/moon-stars-fill.svg" alt="theme icon"/></svg>
+                    <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+                </button>
             </div>
         </header>
     </div>

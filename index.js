@@ -28,9 +28,6 @@ app.get('/projects', (req, res) => {
 })
 
 //HTML request POST
-app.post('/theme', (req, res) => {
-    console.log("Theme pressed");
-})
 
 //LISTEN
 app.listen(PORT, () => {
